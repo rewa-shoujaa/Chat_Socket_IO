@@ -1,0 +1,83 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+
+}
+
+body{
+ 
+  height:100%;
+  width:100%;
+  background-color: indigo;
+}
+
+.App {
+ display:grid;
+ place-items: center;
+ height:100vh;
+  
+  
+}
+
+.LogIn {
+  width:fit-content;
+  height:700px;
+  border: 5px  solid gainsboro;
+  border-radius: 7px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+
+.input{
+  align-content: flex;
+  margin-bottom: 50px;
+  padding-bottom: 0px;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.input label {
+   align-content:flex;
+  margin:30px;
+  color:  gainsboro;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.input input {
+ height: 30px;
+ background-color:gainsboro;
+ font-weight: bold;
+ color: indigo;
+ font-size: 18px;
+
+}
+.submitbtn button{
+height: 50px;
+width:200px;
+font-size: 18px;
+font-weight: bold;
+color: indigo;
+background-color: gainsboro;
+border-radius: 7px;
+}
+
+.submitbtn button:hover{
+  cursor:pointer;
+  background-color: rgb(185, 184, 184);
+
+}
+
+.chatContainer{
+  width:800px;
+  height:700px;
+  border: 5px  solid gainsboro;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column; 
+  padding: 0px;
+  margin: 0px;
+
+}
+

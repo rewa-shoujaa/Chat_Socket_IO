@@ -1,0 +1,13 @@
+.chatList{
+  flex:90%;
+  width:100%;
+  background-color:  gainsboro;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top:15px;
+  scroll-behavior: auto;
+  margin: 0px;
+  border: none;
+  list-style-type: none;
+ 
+}
